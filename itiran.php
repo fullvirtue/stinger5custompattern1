@@ -23,6 +23,7 @@
       <div class="smanone">
         <?php the_excerpt(); //スマートフォンには表示しない抜粋文 ?>
       </div>
+      <?php get_template_part('sns'); //ソーシャルボタン読み込み ?>
     </dd>
   </dl>
   <?php endwhile; else: ?>
