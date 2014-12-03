@@ -1018,210 +1018,210 @@ footer {
 /*media Queries タブレットサイズ
 ----------------------------------------------------*/
 @media only screen and (max-width: 780px) {
-aside {
-	clear: both;
-	float: none;
-	width: auto;
-	position: static !important;
-	;
-}
+	aside {
+		clear: both;
+		float: none;
+		width: auto;
+		position: static !important;
+		;
+	}
 }
 /*media Queries タブレットサイズ
 ----------------------------------------------------*/
 @media only screen and (min-width: 380px) {
-#wrapper {
-	padding: 0 20px;
-}
-header {
-	text-align: left;
-}
-.sitename img {
-	max-width: 300px;
-	margin: 0;
-}
-main {
-	background-color: #fff;
-	border-radius: 4px;
-	padding: 20px 40px;
-}
-/*--------------------------------
-一覧記事表示部分
----------------------------------*/
-#topnews dt {
-	float: left;
-	width: 150px;
-}
-#topnews dt img {
-	width: 100%;
-}
-#topnews dd {
-	padding-left: 170px;
-}
-#topnews .clearfix dd h5 {
-	font-size: 24px;
-	font-weight: bold;
-	padding: 0px;
-	margin-bottom: 5px;
-}
-#topnews .clearfix dd p {
-	font-size: 13px;
-	color: #666;
-	line-height: 24px;
-	margin: 0px;
-	padding: 0px;
-}
-#topnews .clearfix dd h5 a {
-	color: #333;
-	text-decoration: none;
-}
-/*-- ここまで --*/
+	#wrapper {
+		padding: 0 20px;
+	}
+	header {
+		text-align: left;
+	}
+	.sitename img {
+		max-width: 300px;
+		margin: 0;
+	}
+	main {
+		background-color: #fff;
+		border-radius: 4px;
+		padding: 20px 40px;
+	}
+	/*--------------------------------
+	一覧記事表示部分
+	---------------------------------*/
+	#topnews dt {
+		float: left;
+		width: 150px;
+	}
+	#topnews dt img {
+		width: 100%;
+	}
+	#topnews dd {
+		padding-left: 170px;
+	}
+	#topnews .clearfix dd h5 {
+		font-size: 24px;
+		font-weight: bold;
+		padding: 0px;
+		margin-bottom: 5px;
+	}
+	#topnews .clearfix dd p {
+		font-size: 13px;
+		color: #666;
+		line-height: 24px;
+		margin: 0px;
+		padding: 0px;
+	}
+	#topnews .clearfix dd h5 a {
+		color: #333;
+		text-decoration: none;
+	}
+	/*-- ここまで --*/
 }
 
 /*media Queries PCサイズ
 ----------------------------------------------------*/
 @media only screen and (min-width: 780px) {
-.smanone {
-	display: block;
-}
-.pcnone {
-	display: none;
-}
-#wrapper {
-	padding: 0 40px;
-}
-header {
-	padding-top: 10px;
-}
-nav {
-	display: block;
-	padding: 10px 0;
-}
-#gazou {
-	display: block;
-	overflow: hidden;
-}
-#contentInner {
-	float: left;
-	width: 100%;
-	margin-right: -300px;
-}
-main {
-	margin-right: 320px;
-	margin-left: 0px;
-	background-color: #fff;
-	border-radius: 4px;
-	padding: 20px 40px;
-}
-aside {
-	float: right;
-	width: 300px;
-	padding: 0px;
-}
-/*IEで要素がズレるのを対応*/
-.ie7 aside ul li, .ie8 aside ul li, .ie9 aside ul li {
-	display: list-item;
-	padding: 0;
-}
-/*--------------------------------
-各フォント設定
----------------------------------*/
-p {
-	font-size: 14px;
-	line-height: 27px;
-	margin-bottom: 20px;
-}
-/*記事タイトル*/
-.entry-title {
-	font-size: 24px;
-	line-height: 35px;
-	color: #333;
-	margin-bottom: 5px;
-}
-.entry-title a:hover {
-	text-decoration: underline;
-}
-/*中見出し*/
-h2 {
-	position: relative;
-	background: #f3f3f3;
-	color: #1a1a1a;
-	font-size: 20px;
-	line-height: 30px;
-	margin-bottom: 20px;
-	padding-top: 10px;
-	padding-right: 20px;
-	padding-bottom: 10px;
-	padding-left: 20px;
-}
-h2:after {
-	content: '';
-	position: absolute;
-	border-top: 10px solid #f3f3f3;
-	border-right: 10px solid transparent;
-	border-left: 10px solid transparent;
-	bottom: -10px;
-	left: 50px;
-}
-h2:before {
-	content: '';
-	position: absolute;
-	border-top: 10px solid #f3f3f3;
-	border-right: 10px solid transparent;
-	border-left: 10px solid transparent;
-	bottom: -10px;
-	left: 50px;
-}
-/*小見出し*/
-.post h3 {
-	font-size: 18px;
-	margin-bottom: 20px;
-	margin-top: 10px;
-	padding-top: 15px;
-	padding-right: 10px;
-	padding-bottom: 10px;
-	padding-left: 10px;
-	color: #1a1a1a;
-	line-height: 25px;
-	background-repeat: no-repeat;
-	background-position: left center;
-	margin-left: 0px;
-	border-bottom-width: 1px;
-	border-bottom-style: dotted;
-	border-bottom-color: #999999;
-}
+	.smanone {
+		display: block;
+	}
+	.pcnone {
+		display: none;
+	}
+	#wrapper {
+		padding: 0 40px;
+	}
+	header {
+		padding-top: 10px;
+	}
+	nav {
+		display: block;
+		padding: 10px 0;
+	}
+	#gazou {
+		display: block;
+		overflow: hidden;
+	}
+	#contentInner {
+		float: left;
+		width: 100%;
+		margin-right: -300px;
+	}
+	main {
+		margin-right: 320px;
+		margin-left: 0px;
+		background-color: #fff;
+		border-radius: 4px;
+		padding: 20px 40px;
+	}
+	aside {
+		float: right;
+		width: 300px;
+		padding: 0px;
+	}
+	/*IEで要素がズレるのを対応*/
+	.ie7 aside ul li, .ie8 aside ul li, .ie9 aside ul li {
+		display: list-item;
+		padding: 0;
+	}
+	/*--------------------------------
+	各フォント設定
+	---------------------------------*/
+	p {
+		font-size: 14px;
+		line-height: 24px;
+		margin-bottom: 10px;
+	}
+	/*記事タイトル*/
+	.entry-title {
+		font-size: 24px;
+		line-height: 35px;
+		color: #333;
+		margin-bottom: 5px;
+	}
+	.entry-title a:hover {
+		text-decoration: underline;
+	}
+	/*中見出し*/
+	h2 {
+		position: relative;
+		background: #f3f3f3;
+		color: #1a1a1a;
+		font-size: 20px;
+		line-height: 30px;
+		margin-bottom: 10px;
+		padding-top: 10px;
+		padding-right: 20px;
+		padding-bottom: 10px;
+		padding-left: 20px;
+	}
+	h2:after {
+		content: '';
+		position: absolute;
+		border-top: 10px solid #f3f3f3;
+		border-right: 10px solid transparent;
+		border-left: 10px solid transparent;
+		bottom: -10px;
+		left: 50px;
+	}
+	h2:before {
+		content: '';
+		position: absolute;
+		border-top: 10px solid #f3f3f3;
+		border-right: 10px solid transparent;
+		border-left: 10px solid transparent;
+		bottom: -10px;
+		left: 50px;
+	}
+	/*小見出し*/
+	.post h3 {
+		font-size: 18px;
+		margin-bottom: 10px;
+		margin-top: 10px;
+		padding-top: 15px;
+		padding-right: 10px;
+		padding-bottom: 10px;
+		padding-left: 10px;
+		color: #1a1a1a;
+		line-height: 25px;
+		background-repeat: no-repeat;
+		background-position: left center;
+		margin-left: 0px;
+		border-bottom-width: 1px;
+		border-bottom-style: dotted;
+		border-bottom-color: #999999;
+	}
 
-/*--------------------------------
-ページャー
----------------------------------*/
-.pagination {
-	clear: both;
-	position: relative;
-	font-size: 11px;
-	line-height: 13px;
-	margin-bottom: 20px;
-	padding-top: 20px;
-	padding-right: 0;
-	padding-bottom: 20px;
-	padding-left: 0;
-}
-.pagination span, .pagination a {
-	display: block;
-	float: left;
-	margin: 2px 2px 2px 0;
-	padding: 6px 9px 5px 9px;
-	text-decoration: none;
-	width: auto;
-	color: #fff;
-	background-color: #999;
-}
-.pagination a:hover {
-	color: #fff;
-	background-color: #666666;
-}
-.pagination .current {
-	padding: 6px 9px 5px 9px;
-	color: #fff;
-	background-color: #CCCCCC;
-}
-/*-- ここまで --*/
+	/*--------------------------------
+	ページャー
+	---------------------------------*/
+	.pagination {
+		clear: both;
+		position: relative;
+		font-size: 11px;
+		line-height: 13px;
+		margin-bottom: 10px;
+		padding-top: 20px;
+		padding-right: 0;
+		padding-bottom: 20px;
+		padding-left: 0;
+	}
+	.pagination span, .pagination a {
+		display: block;
+		float: left;
+		margin: 2px 2px 2px 0;
+		padding: 6px 9px 5px 9px;
+		text-decoration: none;
+		width: auto;
+		color: #fff;
+		background-color: #999;
+	}
+	.pagination a:hover {
+		color: #fff;
+		background-color: #666666;
+	}
+	.pagination .current {
+		padding: 6px 9px 5px 9px;
+		color: #fff;
+		background-color: #CCCCCC;
+	}
+	/*-- ここまで --*/
 }
