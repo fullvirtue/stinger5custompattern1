@@ -41,6 +41,7 @@ $allcats = array_reverse($allcats);
                 <?php if ($mtime = get_mtime('Y/m/d')) echo ' <i class="fa fa-repeat"></i>&nbsp; ' , $mtime; ?>
                 </span> </p>
             </div>
+            <?php get_template_part('sns'); //ソーシャルボタン読み込み ?>
             <?php the_content(); //本文 ?>
           </section>
           <!--/section-->
