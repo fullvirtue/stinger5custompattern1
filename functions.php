@@ -296,7 +296,7 @@ array(
     'settings' => 'stinger_menu_comcolor',
     ) ) );
 
-    $wp_customize->add_setting( 'stinger_rss_color', array( 'default' => '#f3f3f3', ) );
+    $wp_customize->add_setting( 'stinger_rss_color', array( 'default' => '#a3a3ff', ) );
     $wp_customize->add_control( new WP_Customize_Color_Control( $wp_customize, 'stinger_rss_color', array(
     'label' => __( 'グループ4（RSS）', 'stinger' ),
     'section' => 'stinger_menu_customize',
@@ -429,8 +429,8 @@ background-color:<?php echo $menu_comcolor;
 ------------------------------------------------------------*/
 /* RSSボタン */
 .rssbox a {
-	background-color: <?php echo $menu_rsscolor;
-?>;
+	background-color: #82a9ff; <!-- ?php echo $menu_rsscolor;
+? -->;
 }
 /*グループ5
 ------------------------------------------------------------*/
