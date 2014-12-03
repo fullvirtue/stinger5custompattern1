@@ -102,8 +102,8 @@ img.size-full, img.size-large {
 /* 基本の文字 */
 p {
 	font-size: 17px;
-	line-height: 27px;
-	margin-bottom: 20px;
+	line-height: 24px;
+	margin-bottom: 10px;
 }
 /*ブログタイトル*/
 
@@ -165,8 +165,8 @@ h2 {
 	background: #f3f3f3;
 	color: #1a1a1a;
 	font-size: 20px;
-	line-height: 27px;
-	margin-bottom: 20px;
+	line-height: 24px;
+	margin-bottom: 10px;
 	padding-top: 10px;
 	padding-right: 20px;
 	padding-bottom: 10px;
@@ -195,14 +195,14 @@ h2:before {
 
 .post h3 {
 	font-size: 20px;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	margin-top: 10px;
 	padding-top: 15px;
 	padding-right: 10px;
 	padding-bottom: 10px;
 	padding-left: 10px;
 	color: #1a1a1a;
-	line-height: 27px;
+	line-height: 24px;
 	background-repeat: no-repeat;
 	background-position: left center;
 	margin-left: 0px;
@@ -230,7 +230,7 @@ aside h4 {
 	font-size: 16px;
 	font-weight: bold;
 	padding: 10px;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	line-height: 28px;
 }
 footer h4 a {
@@ -242,7 +242,7 @@ footer h4 a {
 	font-size: 16px;
 	font-weight: bold;
 	padding: 10px;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	line-height: 28px;
 	border-bottom-width: 1px;
 	border-bottom-style: solid;
@@ -263,7 +263,7 @@ footer h4 a {
 	border-bottom-width: 1px;
 	border-bottom-style: dotted;
 	border-bottom-color: #666666;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	padding: 5px;
 }
 /* 引用 */
@@ -278,7 +278,7 @@ footer h4 a {
 	padding-left: 20px;
 	margin-top: 20px;
 	margin-right: 20px;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	border-left-width: 1px;
 	border-left-style: solid;
 	border-left-color: #CCC;
@@ -295,7 +295,7 @@ footer h4 a {
 	padding-left: 20px;
 	margin-top: 20px;
 	margin-right: 20px;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	border-left-width: 1px;
 	border-left-style: solid;
 	border-left-color: #CCC;
@@ -332,7 +332,7 @@ footer h4 a {
 	padding-left: 110px;
 }
 #topnews dl {
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	padding-bottom: 20px;
 	border-bottom-width: 1px;
 	border-bottom-style: dotted;
@@ -342,7 +342,7 @@ footer h4 a {
 	padding-top: 20px;
 }
 #topnews dl:last-child {
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	padding-bottom: 20px;
 	border-style: none;
 }
@@ -399,7 +399,7 @@ footer h4 a {
 	border-bottom-color: #ccc;
 }
 #kanren dl:last-child {
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	padding-bottom: 20px;
 	border-style: none;
 }
@@ -436,7 +436,7 @@ aside h4 {
 }
 aside #mybox ul li ul li {
 	font-size: 14px;
-	line-height: 27px;
+	line-height: 24px;
 }
 aside #mybox ul {
 	margin-bottom: 10px;
@@ -523,28 +523,28 @@ img.float-right {
 /*リスト */
 .post ul {
 	list-style-type: disc;
-	padding-top: 20px;
+	padding-top: 2px;
 	padding-right: 20px;
-	padding-bottom: 20px;
+	padding-bottom: 2px;
 	padding-left: 20px;
-	margin-bottom: 20px;
+	margin-bottom: 2px;
 }
 .post ul li {
-	font-size: 17px;
-	line-height: 27px;
+	font-size: 14px;
+	line-height: 24px;
 }
 .post ol {
 	list-style-type: decimal;
-	padding-top: 20px;
+	padding-top: 2px;
 	padding-right: 20px;
-	padding-bottom: 20px;
+	padding-bottom: 2px;
 	padding-left: 20px;
-	margin-bottom: 20px;
+	margin-bottom: 2px;
 }
 
 .post ol li {
-	font-size: 17px;
-	line-height: 27px;
+	font-size: 14px;
+	line-height: 24px;
 }
 /*--------------------------------
 アコーディオン
@@ -701,7 +701,7 @@ nav li a:hover {
 	position: relative;
 	font-size: 14px;
 	line-height: 13px;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	padding-top: 20px;
 	padding-right: 0;
 	padding-bottom: 20px;
@@ -764,9 +764,9 @@ SNS
 	list-style-type: none;
 }
 .post .sns .snsb.clearfix {
-	padding-top: 20px;
+	padding-top: 0px;
 	padding-right: 0px;
-	padding-bottom: 20px;
+	padding-bottom: 0px;
 	padding-left: 0px;
 }
 /*--------------------------------
@@ -867,14 +867,14 @@ PAGE TOP
 	padding-right: 20px;
 	padding-bottom: 10px;
 	padding-left: 20px;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	border-left-width: 1px;
 	border-left-style: solid;
 	border-left-color: #CCCCCC;
 }
 .comment-body {
 	padding: 10px;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 .fn {
 	font-style: normal;
@@ -970,7 +970,7 @@ PREV NEXT
 .p-navi dl dt {
 	font-weight: bold;
 	font-size: 14px;
-	line-height: 27px;
+	line-height: 24px;
 	float: left;
 	width: 50px;
 	color: #666;
@@ -978,7 +978,7 @@ PREV NEXT
 .p-navi dl dd {
 	font-size: 15px;
 	padding-left: 55px;
-	line-height: 27px;
+	line-height: 24px;
 }
 /*レイアウト スマートフォン
 ----------------------------------------------------*/
